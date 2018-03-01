@@ -1,0 +1,9 @@
+* {
+box-sizing: border-box; }
+.row { width: 100%; }
+#column-left { width: 33%; float: left; border: thin solid black;}
+#content { width: 33%; float: left; border: thin solid black;}
+#column-right { width: 33%; float: left;  border: thin solid black;}
+
+h1 {color: red; text-align: center;}
+h2 {color: green; text-align: center;}
