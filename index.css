@@ -1,9 +1,101 @@
-* {
-box-sizing: border-box; }
+* {box-sizing: border-box; }
+
 .row { width: 100%; }
 #column-left { width: 33%; float: left; border: thin solid black;}
 #content { width: 33%; float: left; border: thin solid black;}
 #column-right { width: 33%; float: left;  border: thin solid black;}
 
+body {
+  background-color: #dadada;
+  background-image: url("imagenes/paisaje.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+   float: left;
+   width: 33.33%;
+   padding: 10px;
+   height: 300px; /* Should be removed. Only for demonstration */
+   border: 1px solid black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.grey {  background-color: #; }
+
+.column-light-grey { background-color: #; }
+.column-dark-grey { background-color: #; }
+
+
+@media (max-width: 600px) {
+   .column {
+width: 100%; }
+
+
 h1 {color: red; text-align: center;}
 h2 {color: green; text-align: center;}
+
+
+#intro {
+  color: red;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.default {
+  color: green;
+  border: 1px solid black;
+  height: 50px;
+}
+
+#special-one {
+  font-size: 22px;
+  color: blue;
+}
+
+.big-font {
+  font-size: 50px;
+}
+
+.text-center {
+  text-align:center;
+}
+
+ /* Create three equal columns that floats next to each other */
+ .column {
+     float: left;
+     width: 33.33%;
+     padding: 10px;
+     height: 300px; /* Should be removed. Only for demonstration */
+     border: 1px solid black;
+ }
+
+ /* Clear floats after the columns */
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ .grey {  background-color: #aaa; }
+
+ .column-light-grey { background-color: #bbb; }
+ .column-dark-grey { background-color: #ccc; }
+
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media (max-width: 600px) {
+     .column {
+     width: 100%;
+
+
+    }
+}
