@@ -13,16 +13,16 @@ body {
   background-size: 100% auto;
 }
 
-/* Create three equal columns that floats next to each other */
+
 .column {
    float: left;
    width: 33.33%;
    padding: 10px;
-   height: 300px; /* Should be removed. Only for demonstration */
+   height: 300px;
    border: 1px solid black;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
    content: "";
    display: table;
@@ -30,20 +30,21 @@ body {
 }
 
 .grey {  background-color: #; }
-
 .column-light-grey { background-color: #; }
 .column-dark-grey { background-color: #; }
 
-
+}
 @media (max-width: 600px) {
    .column {
 width: 100%; }
 
+}
 
 h1 {color: red; text-align: center;}
 h2 {color: green; text-align: center;}
 
 
+}
 #intro {
   color: red;
   border: 1px solid black;
@@ -70,32 +71,61 @@ h2 {color: green; text-align: center;}
   text-align:center;
 }
 
- /* Create three equal columns that floats next to each other */
+
  .column {
      float: left;
      width: 33.33%;
      padding: 10px;
-     height: 300px; /* Should be removed. Only for demonstration */
+     height: 300px;
      border: 1px solid black;
  }
 
- /* Clear floats after the columns */
+
  .row:after {
      content: "";
      display: table;
      clear: both;
- }
+}
 
- .grey {  background-color: #aaa; }
+.row { text-align: center; }
+.img-said { width: 50%; }
 
- .column-light-grey { background-color: #bbb; }
- .column-dark-grey { background-color: #ccc; }
+.column-light-grey { color: blue; }
 
- /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+h5 {color:blue; text-align: center;}
+
+
+
  @media (max-width: 600px) {
      .column {
-     width: 100%;
+   width: 100%;
 
 
-    }
+ }
+
+ .row { text-align: right;; }
+ .img-moha { width: 50%; }
+
+ .column-light-grey { color: blue; }
+
+ h5 {color:blue; text-align:right;;}
+
+
+
+  @media (max-width: 600px) {
+      .column {
+      width: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+  }
 }
