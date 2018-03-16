@@ -7,7 +7,7 @@
 
 body {
   background-color: #dadada;
-  background-image: url("imagenes/paisaje.jpg");
+  background-image: url("Baixades/pirata.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% auto;
@@ -90,9 +90,9 @@ h2 {color: green; text-align: center;}
 .row { text-align: center; }
 .img-said { width: 50%; }
 
-.column-light-grey { color: blue; }
+.column-light-grey { color: white; }
 
-h5 {color:blue; text-align: center;}
+h5 {color:white; text-align: center;}
 
 
 
@@ -106,9 +106,9 @@ h5 {color:blue; text-align: center;}
  .row { text-align: right;; }
  .img-moha { width: 50%; }
 
- .column-light-grey { color: blue; }
+ .column-light-grey { color: white; }
 
- h5 {color:blue; text-align:right;;}
+ h5 {color:white; text-align:right;;}
 
 
 
